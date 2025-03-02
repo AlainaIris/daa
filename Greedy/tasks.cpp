@@ -35,8 +35,8 @@ int main() {
 	int size = resultTasks->size();
 	for (int i = 0; i < size; i++) {
 		Task t = resultTasks->at(i);
-		//printf("%d", i);
 		printf("Start: %d End: %d\n", t.start, t.end);
 	}
+	delete tasks;
 	return 0;
 }

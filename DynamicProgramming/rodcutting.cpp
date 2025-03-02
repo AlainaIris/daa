@@ -20,4 +20,5 @@ int rodcutting(int* prices, int size, int rod) {
 int main() {
 	int rodprices[10] = {1, 5, 8, 9, 11, 18, 19, 21, 24, 28};
 	printf("Largest price: %d", rodcutting(rodprices, 10, 42));
+	return 0;
 }

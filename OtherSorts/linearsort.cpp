@@ -36,4 +36,5 @@ int main() {
 	}
 	delete[] sorted;
 	delete[] arr;
+	return 0;
 }

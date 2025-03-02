@@ -62,6 +62,7 @@ void quick_sort(int* arr, int low, int high) {
 			s.push(part + 1, high);
 		}
 	} while (s.top != -1);
+	delete s.items;
 }
 
 int main() {
@@ -71,4 +72,5 @@ int main() {
 		cout << arr[i];
 		cout << " ";
 	}
+	return 0;
 }
